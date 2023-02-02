@@ -1,0 +1,108 @@
+int y:=9;
+float fac:=3.1;
+int fada:=(2+3*(6/3+(2+3)));
+const char cacwadaw:='b';
+class Masina{
+    int a:=3;
+    float f:=2.1;
+    float f1;
+    char f2:='a';
+    string cuv;
+    int b;
+    int sal(int y)
+    {
+        int c;
+    }
+};
+class Masina2{
+    int a2:=3;
+    float f2:=2.1;
+};
+int functie(char y | char z | string f | char ya)
+{
+    char pc;
+}
+int f()
+{
+    int h:=14;
+}
+const int fa:=3;
+int test(int var1 | int var2 | int var3)
+{
+    int funcadw;
+}
+
+main ()
+{
+    float miguel := 2.2;
+    bool luca := false;
+    bool exprr;
+    char pc;
+    exprr := (5 > 2 && 2>1);
+    bool x:=true;
+    string cuvant2[21];
+    char d:='g';
+    char ba:=d;
+    int vectorBun[10];
+    functie(d | 'a' | cuvant2[21] | ba);
+    int gigel;
+    Masina m;
+    Masina m2;
+    char gigi:='a';
+    m.b := 3;
+    m.f2 := 'a';
+    m.cuv := "da";
+    int mat[20][10];
+
+    int test1:=(4*3-6/y+vectorBun[6]);
+    float ca;
+    int b;
+    string aacas:="guie";
+    b := (4*3-6/y);
+    char caracter:='a';
+    ca := 2.3+2.2*7.9;
+    TypeOf(2.2);  
+    TypeOf(b);
+    TypeOf(cuvant2[2]);
+    TypeOf(aacas);
+    TypeOf('a');
+    Eval("y*2+test1+6+5*(2*5/2)");
+    Eval("-2+3");
+    Eval("2.2");
+    Eval("b*2+y+6+5*(2*5/2)");
+    Eval("y+b");
+    while(3<4)do
+    {
+        int ab;
+    }
+    if(2.2>2.2)
+    {   
+        int bac;
+    }
+    if(2.0<2.1 && 2.1<2.2)
+    {
+        int c;
+    }
+    else
+    {
+        int dadada;
+    }
+    if((2>4 && 2<3) || (2<3 && 2<4))
+    {
+        int cab;
+    }
+    int matriceadrc[101][101];
+    f();
+    int id;
+    for(id:=1;id<4;id:=id+1)
+    {
+        int baca;
+    }
+    int x1;
+    int x2;
+    if(x1+test(x1 | x2 | 2)<5 + x1 && ((x > 2 || x1 < 4+x2) || x==2))
+    {
+        int intx:=2;
+    }
+}
+

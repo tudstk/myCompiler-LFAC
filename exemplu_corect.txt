@@ -1,0 +1,123 @@
+int x1;
+int x2;
+const int by := 13;
+int var := 4;
+int mat[100][100];
+const float f := 20.0 ;
+float f1;
+string ceva;
+const string nume := "idk";
+string prenume := "miguel";
+int cont;
+bool isNumber;
+bool isDigit := false;
+char c;
+char ch := 'a';
+const char ch2 := 'b';
+
+int testFunction(int x | float z) {
+    float orice;
+}
+
+int testFunction1(int x | int z) {
+    int orice2;
+}
+
+int test(int param1 | int param2 | float f) {
+    char orice3;
+    string a := "denis";
+    if(2>3)
+    {
+        float operatief:= 2.2+3.5;
+    }
+    for(cont := 0; cont <= x1; cont := cont + 2)
+    {
+        float nVar := 2.3*5.6;
+    }
+}
+
+class C1 {
+    int var;
+    float func(){
+        float content;
+    }
+};
+
+class C2 {
+    string h := "string";
+    int camp;
+    char oFunctie(int h | int g)
+    {
+        float j;
+    }
+};
+
+main()
+{
+    int x;
+    int arr[10];
+    C1 instanta1;
+    C2 instanta2;
+    int y;
+    char chr;
+    string str;
+    float flt;
+    bool isNum;
+    bool isSmth := false;
+    bool expr;
+    expr := ((2 < 3 || by > 4) && (7 < 2 || 3 != y));
+    int vec[20] := {2,4,6,10};
+    float matrix[40][40] := {{43.2, 24.6}, {12.4, 67.3, 1.4}, {6.4}};
+
+    const int z := 14;
+    const char w := 'd';
+    const string h := "str";
+    const float j := 2.3;
+
+    y := 12;
+    chr := 'g';
+    str := "prezentare";
+    flt := 4.56;
+    isSmth := true;
+
+    float matElem := matrix[1][1] + matrix[2][0];
+    int vecElem := vec[1] + vec[3] - 7;
+    instanta1.var := 4;
+    instanta2.oFunctie(4|5);
+
+
+    if((z + testFunction1(2 | 5) < 9) || (y + 5 >= 13))
+    {
+        int numeVar;
+    }
+
+    int i;
+    for(i := 0; i <= y; i := i + 2)
+    {
+        float numeVar2;
+    }
+
+    int increment;
+    while((increment <= y) && (4 > y - 2 || 6 < y + 1)) do
+    {
+        increment := increment + 1;
+        int fNumber := y - increment;
+    }
+
+    x := 10;
+    x1 := 20;
+    x2 := 30;
+    y := 100;
+    x := test(test(x1 | 3 | f) + 2 | y + 4 | 2.4) + (30 - y * arr[3]) - 10;
+    x1 := x * 100 + 5 * 100 + arr[2];
+    
+    Eval("x * 10 - 100");
+    Eval("x1");
+    Eval("x2 * 10 - 200");
+
+    TypeOf(x + 23);
+    TypeOf(f - 30.0);
+    TypeOf(25+35*(2*3-(10/2)));
+    TypeOf(str);
+    TypeOf(chr);
+}

@@ -1,0 +1,7 @@
+type  -  id  -  params
+
+int | testFunction | int  x  * float  z  * 
+int | testFunction1 | int  x  * int  z  * 
+int | test | int  param1  * int  param2  * float  f  * 
+float | func | 
+char | oFunctie | int  h  * int  g  * 

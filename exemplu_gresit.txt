@@ -1,0 +1,68 @@
+int x;
+const int y := 13;
+int matrice[23][52] := {{2,3},{4,5.5}};
+int suma := matrice[2][5];
+float vector[25] := {2.2,3.4,6.7};
+float sumaF := vector[5];
+float suma := vector[26];
+y := 2;
+int x:=23;
+int x1;
+int x2;
+float f1 := 50.0;
+string s := "ana";
+
+int testFunction(int x | float z) {
+    int a := 7;
+}
+int testFunction(int x | float z) {
+    int b := 8;
+}
+int testFunction(float x | float z) {
+    int c := 9;
+}
+int test(int param) {
+    bool imBool := true;
+}
+
+class Clasa1{
+    int x;
+};
+
+class Clasa2{
+    int y;
+};
+
+main(){
+    x3 := x + 2;
+	f1 := x + x2;
+	f1 := test(5) + x;
+    x := test(5) + f1; 
+	x := s + f1;
+    test(f1);
+	test(5 | f1);
+	TypeOf(f1+x);
+    Eval("f1");
+    Eval("f1 + x");
+	test(5+f1);
+
+    TypeOf(25+35.1*(2*3-(10/0)));
+
+    if(2 + 3)
+    {
+        float abcd;
+    }
+
+    for(j := 0; j < 6; j := j + 1)
+    {
+        float g := 10 + 2.2;
+    }
+    
+    string strTest;
+    strTest := 'c';
+    char chrTest := "imstring";
+
+    Clasa1 c1;
+    int b := 2;
+    c1.x := b;
+}
